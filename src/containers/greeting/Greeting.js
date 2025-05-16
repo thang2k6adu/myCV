@@ -18,7 +18,7 @@ export default function Greeting(props) {
             <div>
               <div className="" style={{}}>
                 <img
-                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+                  src={require(`../../assets/images/tran_thang.jpg`)}
                   alt=""
                   style={{
                     width: "300px",
@@ -30,7 +30,14 @@ export default function Greeting(props) {
                   }}
                 />
               </div>
-              <h1 className="greeting-text" style={{ color: theme.text, margin:"10px 0 0 0", fontSize:"50px" }}>
+              <h1
+                className="greeting-text"
+                style={{
+                  color: theme.text,
+                  margin: "10px 0 0 0",
+                  fontSize: "50px",
+                }}
+              >
                 {greeting.title}
               </h1>
               {greeting.nickname && (
@@ -40,7 +47,7 @@ export default function Greeting(props) {
               )}
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText, fontSize:"20px" }}
+                style={{ color: theme.secondaryText, fontSize: "20px" }}
               >
                 {greeting.subTitle}
               </p>

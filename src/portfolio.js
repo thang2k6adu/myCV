@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -12,7 +12,7 @@ const seo = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Tran Thang Portfolio",
-    type: "website",
+    type: "web",
     url: "",
   },
 };
@@ -24,8 +24,7 @@ const greeting = {
   nickname: "Fullstack Developer",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "",
+  resumeLink: "",
   portfolio_repository: "",
   githubProfile: "https://github.com/thang2k6adu",
 };
@@ -39,7 +38,8 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/th%E1%BA%AFng-tr%E1%BA%A7n-%C4%91%E1%BB%A9c-510608333/",
+    link:
+      "https://www.linkedin.com/in/th%E1%BA%AFng-tr%E1%BA%A7n-%C4%91%E1%BB%A9c-510608333/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -281,7 +281,6 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/profile/thang2k6adu",
     },
-
   ],
 };
 
@@ -361,8 +360,7 @@ const experience = {
         {
           title: "Odoo Development Intern",
           company: "AIS-Research",
-          company_url:
-            "https://aisnet.org/page/Research",
+          company_url: "https://aisnet.org/page/Research",
           logo_path: "ript_logo.png",
           duration: "Mar 2025 - Now",
           location: "122 Hoang Quoc Viet, Cau Giay, Hanoi",
@@ -411,8 +409,7 @@ const contactPageData = {
   },
   blogSection: {
     title: "Tran Duc Thang",
-    subtitle:
-      "I may not be the best, but I always give my best.",
+    subtitle: "I may not be the best, but I always give my best.",
     link: "",
     avatar_image_path: "blogs_image.svg",
   },
