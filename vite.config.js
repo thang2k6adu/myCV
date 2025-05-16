@@ -1,5 +1,6 @@
-import svgr from 'vite-plugin-svgr';
+import svgr from "vite-plugin-svgr";
 
 export default {
   plugins: [svgr()],
+  base: "/myCV",
 };
