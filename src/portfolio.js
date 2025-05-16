@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -394,7 +394,15 @@ const publications = {
       name: "Trello",
       createdAt: "2025-02-01T00:00:00Z",
       description: "Built a Trello-like task management web application",
-      url: "https://arxiv.org/abs/2307.00653",
+      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    },
+    {
+      id: "project_management",
+      name: "Project Management",
+      createdAt: "2025-02-01T00:00:00Z",
+      description:
+        "Built a Trello-like task management web application on Odoo platform",
+      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     },
   ],
 };
