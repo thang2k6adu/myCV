@@ -20,10 +20,18 @@ class Header extends Component {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     return (
+      // Fade là component từ react-reveal
       <Fade top duration={1000} distance="20px">
+        {/* SeoHeader là component từ react-helmet */}
+        {/* Nó giúp tối ưu hóa SEO cho trang web */}
         <SeoHeader />
         <div>
           <header className="header">
+            {/* NavLink là component từ react-router-dom */}
+            {/* Nó giúp tạo link đến các trang web
+            tag={Link} (thay vì <a> như bình thường thì dùng <Link> của react-router-dom, render các phần cần thiết)
+            className="logo" là class của component
+            */}
             <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>

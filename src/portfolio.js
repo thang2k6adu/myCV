@@ -394,7 +394,8 @@ const publications = {
       name: "Trello",
       createdAt: "2025-02-01T00:00:00Z",
       description: "Built a Trello-like task management web application",
-      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      url: "",
+      // url: "https://www.youtube.com/shorts/SXHMnicI6Pg",
     },
     {
       id: "project_management",
@@ -402,7 +403,7 @@ const publications = {
       createdAt: "2025-02-01T00:00:00Z",
       description:
         "Built a Trello-like task management web application on Odoo platform",
-      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      url: "",
     },
   ],
 };

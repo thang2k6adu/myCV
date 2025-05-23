@@ -16,7 +16,7 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <div className="" style={{}}>
+              <div className="image-container" style={{}}>
                 <img
                   src={require(`../../assets/images/tran_thang.jpg`)}
                   alt=""

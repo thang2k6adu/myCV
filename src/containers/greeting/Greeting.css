@@ -68,6 +68,11 @@
   .button-greeting-div {
     justify-content: space-around;
   }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .greeting-text {
     font-size: 30px;
     margin-top: 0px;
