@@ -342,15 +342,26 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Mobile Developer",
+          company: "ATSAP, LLC",
+          company_url: "https://www.atsapllc.com/",
+          logo_path:
+            "https://static.wixstatic.com/media/a50796_0680d54f9f574c45bdd05ec3167d8a0f%7Emv2_d_4114_2969_s_4_2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/a50796_0680d54f9f574c45bdd05ec3167d8a0f%7Emv2_d_4114_2969_s_4_2.png",
+          duration: "May 2025",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "This is a company specializing in mobile product development, focusing on helping startups and small businesses turn their ideas into fully functional mobile applications.",
+          color: "#0071C5",
+        },
+        {
+          title: "Odoo Development",
+          company: "AIS-Research",
+          company_url: "https://aisnet.org/page/Research",
+          logo_path: "ript_logo.png",
+          duration: "Mar 2025 - Now",
+          location: "122 Hoang Quoc Viet, Cau Giay, Hanoi",
+          description:
+            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+          color: "#0071C5",
         },
       ],
     },
@@ -393,16 +404,31 @@ const publications = {
       id: "trello",
       name: "Trello",
       createdAt: "2025-02-01T00:00:00Z",
-      description: "Built a Trello-like task management web application",
-      url: "",
-      // url: "https://www.youtube.com/shorts/SXHMnicI6Pg",
+      description: `Built a Trello-like task management web application with MERN Stack`,
+      url: "https://trello-web-rho.vercel.app/login",
+    },
+    {
+      id: "idurar",
+      name: "Idurar",
+      createdAt: "2025-02-01T00:00:00Z",
+      description:
+        "This is an ERP and CRM system providing modules for invoicing, inventory, accounting,...",
+      url: "https://idurar-frontend.vercel.app/",
+    },
+    {
+      id: "myCV",
+      name: "MyCV",
+      createdAt: "2025-02-01T00:00:00Z",
+      description:
+        "A web application that allows users to easily create and customize professional resumes",
+      url: "https://thang2k6adu.github.io/myCV/",
     },
     {
       id: "project_management",
       name: "Project Management",
       createdAt: "2025-02-01T00:00:00Z",
-      description:
-        "Built a Trello-like task management web application on Odoo platform",
+      description: `Built a Trello-like task management web application on Odoo platform
+        `,
       url: "",
     },
   ],

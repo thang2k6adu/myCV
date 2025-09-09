@@ -41,9 +41,14 @@ class Projects extends Component {
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
+                  style={{ color: theme.secondaryText, whiteSpace: "pre-line" }}
                 >
-                  {projectsHeader["description"]}
+                  {projectsHeader.description.split("  ").map((line, i) => (
+                    <span key={i}>
+                      {line}
+                      <br />
+                    </span>
+                  ))}{" "}
                 </p>
               </div>
             </div>
