@@ -2,10 +2,10 @@
   "private": true,
   "name": "mycv",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://thang2k6adu.github.io/myCV",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -b gh-pages -d build --repo=https://github.com/thang2k6adu/myCV.git",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
